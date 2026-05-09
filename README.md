@@ -2,6 +2,16 @@
 
 ---
 
+## Why This Lab Matters
+
+Active Directory remains a core identity system in enterprise environments, responsible for authentication, authorization, and policy management.
+
+This lab simulates a small corporate Windows domain environment and focuses on real-world administration concepts such as DNS, DHCP, Group Policy, and centralized identity management.
+
+The knowledge gained here directly applies to hybrid and cloud environments like Microsoft Entra ID (Azure AD).
+
+---
+
 ## Loom Walkthrough
 
 [🎥 Watch Full Lab Demonstration](YOUR_LOOM_LINK)
