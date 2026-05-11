@@ -47,33 +47,21 @@ The environment simulates a small enterprise infrastructure and focuses on admin
 - Understand authentication and centralized identity management
 - Practice troubleshooting and administrative workflows
 
----
+## The Business Problem This Lab Solves
 
-## Architecture
+Every organisation that runs Windows infrastructure — and the majority of enterprises do — relies on Active Directory to answer one fundamental question: who is allowed to do what?
+Active Directory is the identity backbone. It controls which users can log into which computers, which groups can access which file shares, and which policies apply to which parts of the organisation.
+When a new employee joins, IT creates their account in Active Directory and adds them to the right groups. Their access to email, shared drives, printers, and applications is granted automatically based on group membership. When they leave, IT disables one account and every door closes simultaneously.
+This is not legacy technology. Hybrid environments use Active Directory on-premises and sync identities to Microsoft Entra ID (formerly Azure AD) in the cloud. Understanding how to build and manage an Active Directory environment is foundational knowledge that applies directly to cloud roles.
 
-![Lab Architecture](./media/diagrams/ad-lab-diagram.png)
-
-### Environment
-
-| Machine | Role | Operating System |
-|---|---|---|
-| DC01 | Domain Controller / DNS / DHCP | Windows Server 2019 |
-| CLIENT01 | Domain Joined Workstation | Windows 10 |
-| HOST | Virtualization Host | VirtualBox |
-
----
 
 ## Technologies Used
 
 - Active Directory Domain Services (AD DS)
-- Windows Server 2019
-- Windows 10
-- DNS
-- DHCP
-- Group Policy Management
-- Oracle VirtualBox
-- PowerShell
-
+- Windows Server 2025
+- Azure Portal
+  - Virtual Machine
+  - Resource group
 ---
 
 ## Security Concepts
@@ -88,41 +76,8 @@ The environment simulates a small enterprise infrastructure and focuses on admin
 
 ---
 
-## Screenshots
+## Links 
 
-### Active Directory Users and Computers
+Validation
 
-![ADUC](./media/screenshots/aduc.png)
-
-### Group Policy Management
-
-![GPO](./media/screenshots/gpo.png)
-
-### Domain Joined Client
-
-![CLIENT](./media/screenshots/client-domain.png)
-
----
-
-## Validation
-
-The environment was validated by:
-
-- Successful domain deployment
-- DNS resolution between systems
-- DHCP address assignment
-- Successful domain join
-- User authentication testing
-- GPO application testing
-
----
-
-## Lessons Learned
-
-- Importance of DNS in Active Directory environments
-- Common networking issues during domain join
-- Group Policy inheritance behavior
-- Administrative workflow inside Windows domains
-- Benefits of centralized identity management
-
----
+Docs (architecture, config, etc)
