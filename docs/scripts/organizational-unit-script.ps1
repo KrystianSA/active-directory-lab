@@ -1,0 +1,5 @@
+New-ADOrganizationalUnit -Name "IT"        -Path "DC=lab,DC=local"
+New-ADOrganizationalUnit -Name "Finance"   -Path "DC=lab,DC=local"
+New-ADOrganizationalUnit -Name "HR"        -Path "DC=lab,DC=local"
+New-ADOrganizationalUnit -Name "Sales"     -Path "DC=lab,DC=local"
+New-ADOrganizationalUnit -Name "Computers" -Path "DC=lab,DC=local"
