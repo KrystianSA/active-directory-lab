@@ -16,13 +16,15 @@
 
 5. Promoted the server to a Domain Controller and configured a new Active Directory forest and domain
 
-6. Installed Group Policy Management Console (GPMC) using PowerShell
+6. Created a new forest and domain
+      
+7. Installed Group Policy Management Console (GPMC) using PowerShell
 
-7. Created Organizational Units (OUs) using PowerShell to organize users and resources
+8. Created Organizational Units (OUs) using PowerShell to organize users and resources
 
-8. Configured RBAC-oriented security groups for role-based access management
+9. Configured RBAC-oriented security groups for role-based access management
 
-9. Created domain user accounts using PowerShell automation
+10. Created domain user accounts using PowerShell automation
 
 ---
 
@@ -32,21 +34,11 @@
 
 - minimum password length policy,
 - machine inactivity timeout,
-- removable storage access restrictions.
+- removable storage access restrictions,
+- password must meet complexity requirements.
 
 ---
 
 ## Validation & Testing
 
-11. Deployed an additional client virtual machine for validation testing
-
-12. Verified domain communication and authentication functionality
-
-13. Tested Group Policy deployment and enforcement on the client machine
-
-14. Validated user account management operations including:
-- password reset,
-- account disablement,
-- security group assignment.
-
-15. Executed PowerShell scripts to identify inactive user accounts
+11. [Validation](./docs/validation)
