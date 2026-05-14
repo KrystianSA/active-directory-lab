@@ -1,4 +1,4 @@
-# Group Policy Configuration
+# Group Policy Object Configuration
 
 ## Overview
 
