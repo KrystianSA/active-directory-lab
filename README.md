@@ -21,10 +21,10 @@ The knowledge gained here directly applies to hybrid and cloud environments like
 
 ## Video Walkthrough
 
-[Reset Password](https://drive.google.com/file/d/1Nlw4dm7aM0poAroqg-sbQqOb3GVHnVcH/view?usp=share_link)
-[Adding User](https://drive.google.com/file/d/1InjiWfsjNdIBpGe7ROhh9gl2V-M2qHgl/view?usp=share_link)
-[Disable User Account](https://drive.google.com/file/d/1tQCAiMZo1-xLkFjtu--5hlGn2pAjDQEd/view?usp=share_link)
-[GPO Policy](https://drive.google.com/file/d/12l1R88v9I_X9fS9v4Zpv_u8JJMw3fCnP/view?usp=share_link)
+- [Reset Password](https://drive.google.com/file/d/1Nlw4dm7aM0poAroqg-sbQqOb3GVHnVcH/view?usp=share_link)
+- [Adding User](https://drive.google.com/file/d/1InjiWfsjNdIBpGe7ROhh9gl2V-M2qHgl/view?usp=share_link)
+- [Disable User Account](https://drive.google.com/file/d/1tQCAiMZo1-xLkFjtu--5hlGn2pAjDQEd/view?usp=share_link)
+- [GPO Policy](https://drive.google.com/file/d/12l1R88v9I_X9fS9v4Zpv_u8JJMw3fCnP/view?usp=share_link)
 
 ---
 
