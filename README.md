@@ -1,7 +1,9 @@
 # Active Directory Home Lab
 
-<img width="1470" height="835" alt="Zrzut ekranu 2026-05-15 o 19 37 45" src="https://github.com/user-attachments/assets/e350eb89-384f-4f75-b10d-8e6125d76948" />
+<img width="735" height="435" alt="Zrzut ekranu 2026-05-15 o 19 37 45" src="https://github.com/user-attachments/assets/e350eb89-384f-4f75-b10d-8e6125d76948" />
 
+- [Why This Lab Matters](#Why-This-Lab-Matters)
+- [Video Walkthrough](#Video-Walkthrough)
 - [Overview](#Overview)
 - [The Business Problem This Lab Solves](#The-Business-Problem-This-Lab-Solves)
 - [Technologies Used](#Technologies-Used)
